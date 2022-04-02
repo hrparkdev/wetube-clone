@@ -2,6 +2,7 @@
   "name": "wetube-clone",
   "version": "1.0.0",
   "description": "The best way to watch a videos.",
+  "type": "module",
   "scripts": {
     "dev": "nodemon --exec npx babel-node src/init.js"
   },
