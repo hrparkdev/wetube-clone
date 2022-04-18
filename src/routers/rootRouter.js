@@ -3,7 +3,6 @@ import { getJoin, postJoin, getLogin, postLogin } from "../controllers/userContr
 import { home, search } from "../controllers/videoController.js";
 import { publicOnlyMiddleware } from "../middlewares.js";
 
-
 const rootRouter = express.Router();
 
 rootRouter.get("/", home);
